@@ -1,0 +1,222 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.img-responsive{
+    width: 100%;
+    
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+a{
+    color:rgb(56, 35, 8);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(143, 120, 90); ;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem ;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color:rgb(163, 98, 13);
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:rgb(243, 180, 97) ;
+}
+h2{
+    color: blcak;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.text-white{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* css for navbar*/
+
+.logo{ 
+
+    float: left;
+    line-height: 40px;
+}
+.menu{
+    line-height: 40px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*css for artist search*/
+.artist-search{
+    background-image: url(../images/art2.jpeg);
+    padding:15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.text-center{
+    text-align: center;
+}
+
+.artist-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    opacity: .5;
+}
+
+/*css for categories*/
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 25%;
+    float: left;
+    margin: 3%;
+}
+
+
+/*css for art menu*/
+.art-menu{
+    background:rgb(206, 206, 245);
+    padding: 2%;
+}
+.art-menu-box{
+    width: 45%;
+    margin: 1%;
+    padding: 15px;
+    float: left;
+    background-color: white;
+    border-radius: 4px ;
+}
+.art-menu-image{
+   width: 20%; 
+   float: left;
+}
+.art-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.art-price{
+    font-size: 1.2rem;
+    margin: 1% 0;
+}
+.art-desc{
+    font-size: 0.8rem;
+    color: rgb(80, 80, 165) ;
+}
+
+
+/*css for social*/
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 3%;
+}
+
+/*css for footer*/
+.footer{
+    padding: 5% 0;
+
+}
+
+/*css for mobile size*/
+@media only screen and (max-width:760px){
+   .logo{
+        width:50%;
+        margin: 1% auto;
+        float: none;
+   }
+   .menu ul{
+       text-align: center;
+       
+   }
+   .artist-search input[type="search"]{
+       width: 100%;
+       margin: 1%;
+       padding: 2%;
+   }
+   .btn{
+       width: 80%;
+       padding: 2%;
+   }
+   .artist-search{
+       padding: 20%;
+   }
+   .categories{
+       padding: 20% 0;
+   }
+
+   h2{
+       margin-bottom:6%;
+   }
+   .box-3{
+       width: 95%;
+       margin: 2% auto;
+   }
+   .art-menu{
+       padding: 20% 0;
+
+   }
+   .art-menu-box{
+       width: 90%;
+       padding: 5%;
+       margin: 5%;
+   }
+   .social{
+       margin: 5% 0;
+   }
+   
+}
